@@ -15,3 +15,4 @@
   <%= button_to("Edit Sub", edit_sub_url(@sub), method: :get) %>
 <% end %>
 <br>
+git filter-branch -f --env-filter "GIT_AUTHOR_NAME='Yale Work'; GIT_AUTHOR_EMAIL='yale.work@gmail.com'; GIT_COMMITTER_NAME='Yale Work'; GIT_COMMITTER_EMAIL='yale.work@gmail.com';" HEAD
